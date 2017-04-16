@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {render} from 'react-dom';
+import Slider, { Range } from 'rc-slider';
+import 'rc-slider/assets/index.css';
 
-class App extends React.Component {
+class App extends Component {
   render () {
-    return <p> Hello React!</p>;
+    return (
+      <Slider />
+    );
   }
 }
 
