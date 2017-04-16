@@ -1,17 +1,20 @@
 # tuto-react
 
-# Requirements
+## Requirements
 * node (>6)
 
-# Install
+## Install
 ```
 npm install
 ```
 
-# Build
+## Run
 ```
-./node_modules/.bin/webpack -d
+npm start
 ```
-
-# Run
 Open the `index.html` file in your browser !
+
+## Build
+```
+npm run build
+```
